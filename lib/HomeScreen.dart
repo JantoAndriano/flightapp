@@ -221,7 +221,7 @@ var homeScreenBottomPart = Column(
         children: <Widget>[
           Text('Hot Offer...', style: dropDownMenuItemStyle),
           Spacer(),
-          Text('View all (12)', style: viewAllStyle,),
+          Text('View all (3)', style: viewAllStyle,),
         ],
       ),
     ),
