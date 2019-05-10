@@ -1,3 +1,4 @@
+import 'package:flightapp/CustomNavBar.dart';
 import 'package:flutter/material.dart';
 import 'package:flightapp/CustomShapeClipper.dart';
 import 'package:intl/intl.dart';
@@ -22,6 +23,7 @@ class _HomeScreenState extends State<HomeScreen> {
 @override
 Widget build(BuildContext context) {
   return Scaffold(
+    bottomNavigationBar: CustomNavBar(),
     body: Column(
       children: <Widget>[
         HomeScreenTopPart(),
@@ -45,7 +47,6 @@ _HomeScreenTopPartState createState() => _HomeScreenTopPartState();
 
 class _HomeScreenTopPartState extends State<HomeScreenTopPart> {
 var selectedLocationIndex = 0;
-
 var isFlightSelected = true;
 
 
